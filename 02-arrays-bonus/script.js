@@ -47,5 +47,6 @@ let teachersString = "";
 for (let i = 0; i < teachers.length; i++) {
   const currentteacher = teachers[i];
   teachersString += currentteacher;
-  console.log(teachersString);
+  teachersString += ",";
 }
+console.log(teachersString);
